@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(255, 255, 255)
+}
+
+header {
+    width: 100%;
+    background-color: rgb(1, 1, 31);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px 0;
+}
+
+.logo-imagem {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-texto {
+    margin-left: 20px;
+    color: white;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 10px;
+
+}
+
+.menu ul li :hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: solid;
+    color: white;
+
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(img/anterior.png);
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    left: 14%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(img/proximo.png);
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    right: 14%;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 600px;
+}
+
+li.slick-active button {
+    background: #610202;
+
+
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding: left 10px;
+}
+
+h2 {
+    color: red;
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 25px;
+
+}
+
+.footer {
+    height: 250px;
+    background-color: black;
+
+
+}
+
+.footer h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: unset;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.footer p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: left;
+    text-transform: unset;
+
+
+}
+
+.grid-4 {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.grid-3 {
+    display: inline-block;
+}
+
+.drag {
+    position: absolute;
+    left: 70%;
+
+}
